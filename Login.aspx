@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication5.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication5.WebForm2" %>
 
 <!DOCTYPE html>
 
@@ -29,7 +29,7 @@
                         <asp:TextBox ID="TextBox1" runat="server" Width="118px" BorderColor="Red" BorderStyle="Solid"></asp:TextBox>  
                     </td>  
                 <tr>  
-                    <td class="auto-style3">Password</td>  
+                    <td class="auto-style3">Password:</td>  
                     <td class="auto-style2">  
                         <asp:TextBox ID="TextBox3" runat="server" TextMode="Password" BorderColor="Red" BorderStyle="Solid"></asp:TextBox>  
                     </td>  

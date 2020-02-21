@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Signup.aspx.cs" Inherits="WebApplication5.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Signup.aspx.cs" Inherits="WebApplication5.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -34,13 +34,20 @@
   
                </tr>  
                 <tr>  
+                    <td class="auto-style3">UserName :</td>  
+                    <td class="auto-style2">  
+                        <asp:TextBox ID="TextBox5" runat="server" Width="118px" BorderColor="Red" BorderStyle="Solid"></asp:TextBox>  
+                    </td>  
+  
+               </tr> 
+                <tr>  
                     <td class="auto-style3">Password</td>  
-                     <td class="auto-style2"> <asp:TextBox ID="TextBox2" runat="server" BorderColor="Red" BorderStyle="Solid"></asp:TextBox></td>  
+                     <td class="auto-style2"> <asp:TextBox ID="TextBox2" TextMode="Password" runat="server" BorderColor="Red" BorderStyle="Solid" ValidateRequestMode="Enabled"></asp:TextBox></td>  
                 </tr>  
                 <tr>  
                     <td class="auto-style3">Confirm Password</td>  
                     <td class="auto-style2">  
-                        <asp:TextBox ID="TextBox3" runat="server" TextMode="Password" BorderColor="Red" BorderStyle="Solid"></asp:TextBox>  
+                        <asp:TextBox ID="TextBox3" runat="server" TextMode="Password" BorderColor="Red" BorderStyle="Solid" ValidateRequestMode="Enabled"></asp:TextBox>  
                     </td>  
                 </tr>   
                 <tr>  
