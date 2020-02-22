@@ -6,11 +6,9 @@
       <siteMapNode url="https://nurserylive.com/en/plant-fertilizers" title="Fertilizers"  description="Click to buy" />
       <siteMapNode url="https://krushikendra.com/pesticides_online" title="Pesticides"  description="Click to buy" />
       </siteMapNode>
-      <siteMapNode  url="Sell.aspx" title="Sell"  description="Sell" >
-        <siteMapNode url="Grains.aspx" title="Grains"  description="Rice,Wheat etc.." />
-        <siteMapNode url="Vege.aspx" title="Vegetables"  description="Sell Vegetables" />
-      </siteMapNode>
-      <siteMapNode url="ContactUs.aspx" title="Contact US"  description="ContacUs" />
+      <siteMapNode  url="Sell.aspx" title="Sell"  description="Sell" />
+        
+      <siteMapNode url="https://integrations.eu-gb.assistant.watson.cloud.ibm.com/web/public/e51cdac9-b9da-4f32-bf04-c12e40d484e1" title="Contact US"  description="ContacUs" />
       <siteMapNode url="Login.aspx" title="Logout"  description="Exit" />
     </siteMapNode>
 </siteMap>

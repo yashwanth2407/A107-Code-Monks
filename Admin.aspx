@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Dealers.aspx.cs" Inherits="WebApplication5.Dealers" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Admin.aspx.cs" Inherits="WebApplication5.Admin" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
     <style>
-    .Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #525252; border-collapse:collapse; font-family:Calibri; color: #474747;}
+        .Grid {background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #525252; border-collapse:collapse; font-family:Calibri; color: #474747;}
 
 .Grid td {
 
@@ -39,29 +39,29 @@
 .Grid .pgr a { color: Gray; text-decoration: none; }
 
 .Grid .pgr a:hover { color: #000; text-decoration: none; }
-        </style>
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div align="center">
-
-        
-        <asp:GridView ID="GridView1" runat="server" BorderColor="#FF3399" BorderStyle="Double" CellPadding="2"
+        <asp:Button ID="Button1" runat="server" Text="View Farmers" OnClick="Button1_Click" BackColor="#FF99FF" BorderColor="#66FFFF" BorderStyle="Double" ForeColor="Red" style="font-weight:bold;"  /><br />
+            <br />
+        <asp:GridView ID="GridView3" runat="server" BorderColor="#FF3399" BorderStyle="Double" BorderWidth="5px" CellPadding="2"
             Width="600px" PageSize="8" CssClass="Grid"  AlternatingRowStyle-CssClass="alt" PagerStyle-CssClass="pgr" >
         </asp:GridView>
-        <br />
-        <label>Enter the name of Dealer yo need to sell To: </label><asp:TextBox ID="TextBox1" runat="server" BorderStyle="Solid" BorderColor="#ff0000"></asp:TextBox>
             <br />
+       <asp:Button ID="Button2" runat="server" Text="View Dealers" OnClick="Button2_Click" BackColor="#FF99FF" BorderColor="#66FFFF" BorderStyle="Double" style="font-weight:bold;" ForeColor="Red"  /><br />
             <br />
-&nbsp;<asp:GridView ID="GridView2" runat="server" CellPadding="2" BorderColor="#FF3399" BorderStyle="Double"
-            Width="600px" PageSize="8" CssClass="Grid"  AlternatingRowStyle-CssClass="alt" PagerStyle-CssClass="pgr" >
-            </asp:GridView>
+        <asp:GridView ID="GridView1" runat="server" BorderColor="#FF3399" BorderStyle="Double" BorderWidth="5px" CellPadding="2" Width="600px"
+
+                   PageSize="8"  CssClass="Grid"  AlternatingRowStyle-CssClass="alt"
+
+                      PagerStyle-CssClass="pgr" >
+        </asp:GridView>
+       
             <br />
-        <br />
-        <asp:Button ID="Button1" runat="server" Text="Request" BackColor="#FF99FF" BorderColor="#66FFFF" BorderStyle="Double" style="font-weight:bold;" ForeColor="Red" OnClick="Button1_Click" />
-        <br />
+       
         </div>
-            
     </form>
 </body>
 </html>

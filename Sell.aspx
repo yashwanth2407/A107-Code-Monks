@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
 </head>
-<body>
+<body style= "background-image:url('images/crop1.jpg'); height=100%; width=100%;" >
     <form id="form1" runat="server">
         <center>
         <div>
@@ -34,7 +34,7 @@
             
                 <tr>  
                     <td colspan =2>  
-                        <asp:Button ID="Button1" runat="server" Text="Find Dealer" OnClick="Button1_Click" BorderStyle="Groove" />  
+                        <asp:Button ID="Button1" runat="server" Text="Find Dealer" OnClick="Button1_Click" BackColor="#FF99FF" BorderColor="#66FFFF" BorderStyle="Double" style="font-weight:bold;" ForeColor="Red"/>  
                     </td>  
                 </tr>  
             </table>

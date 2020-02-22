@@ -64,6 +64,8 @@ color:#fff;
 </asp:Menu>
 <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
 </asp:ContentPlaceHolder>
+<asp:Image ID="Image1" runat="server" ImageUrl="~/images/farmer.png" Height="312px" Width="1200px" />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9UPNb11ujmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </form>
 </body>
